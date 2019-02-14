@@ -4892,6 +4892,25 @@ input[type="button"].btn-block {
   color: #fff;
 }
 
+.social-icon {
+  vertical-align: top;
+  text-align: center;
+  display: inline-block;
+  background: #66b9bf;
+  width: 52px;
+  height: 52px;
+  padding-top: 8px;
+  border-radius: 50%;
+  color: #e3e3e3;
+  font-size: 24px;
+  margin: 0 5px;
+}
+
+.social-icon:hover{
+  color: #e3e3e3;
+  background-color: #4badb4;
+}
+
 .card {
   position: relative;
   display: -webkit-box;
@@ -10649,7 +10668,7 @@ header.masthead h1 {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: #93ced2;
 }
 
 #categories .categories-item .categories-link .categories-hover:hover {
