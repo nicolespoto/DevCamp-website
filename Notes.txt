@@ -1,0 +1,17 @@
+<!-- Top bar -->
+<div class="topbar">
+    <div class="container topbar-container">
+      <div class="row row-xs-center">
+        <div class="col-md-6">
+          <div class="topbar__text">
+                      </div>
+        </div>
+        <div class="col-md-6">
+          <div class="topbar__menu">
+            <ul id="menu-top-menu" class="topbar-menu"><li id="menu-item-1662" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1662"><a href="https://www.rebelbuda.com/my-account/">Login</a></li>
+<li id="menu-item-1664" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1664"><a href="https://www.rebelbuda.com/my-account/">Create an Account</a></li>
+</ul>					</div>
+        </div>
+      </div>
+    </div>
+  </div>
