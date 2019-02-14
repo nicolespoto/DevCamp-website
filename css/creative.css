@@ -10516,6 +10516,79 @@ hr.light {
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
     color: #4badb4;
   }
+
+}
+
+#secondaryNav {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  -webkit-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
+}
+
+#secondaryNav .navbar-brand {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #212529;
+}
+
+#secondaryNav .navbar-nav .nav-item .nav-link {
+  color: #6c757d;
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.75rem 0;
+}
+
+#secondaryNav .navbar-nav .nav-item .nav-link:hover, #secondaryNav .navbar-nav .nav-item .nav-link:active {
+  color: #4badb4;
+}
+
+#secondaryNav .navbar-nav .nav-item .nav-link.active {
+  color: #4badb4 !important;
+}
+
+@media (min-width: 992px) {
+  #secondaryNav {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent;
+  }
+  #secondaryNav .navbar-brand {
+    color: #212529;
+  }
+  #secondaryNav .navbar-brand:hover {
+    color: #4badb4;
+  }
+  #secondaryNav .navbar-nav .nav-item .nav-link {
+    color: #212529;
+    padding: 0 1rem;
+  }
+  #secondaryNav .navbar-nav .nav-item .nav-link:hover {
+    color: #4badb4;
+  }
+  #secondaryNav .navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 0;
+  }
+  #secondaryNav.navbar-scrolled {
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+  }
+  #secondaryNav.navbar-scrolled .navbar-brand {
+    color: #212529;
+  }
+  #secondaryNav.navbar-scrolled .navbar-brand:hover {
+    color: #4badb4;
+  }
+  #secondaryNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
+    color: #212529;
+  }
+  #secondaryNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
+    color: #4badb4;
+  }
+
 }
 
 header.masthead {
