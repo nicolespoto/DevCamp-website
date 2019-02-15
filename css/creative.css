@@ -166,8 +166,8 @@ a {
 }
 
 a:hover {
-  color: #d6370c;
-  text-decoration: underline;
+  color: black;
+  text-decoration: none;
 }
 
 a:not([href]):not([tabindex]) {
@@ -4901,7 +4901,7 @@ input[type="button"].btn-block {
   height: 52px;
   padding-top: 8px;
   border-radius: 50%;
-  color: #e3e3e3;
+  color: white;
   font-size: 24px;
   margin: 0 5px;
 }
@@ -5694,6 +5694,8 @@ a.badge-dark:hover, a.badge-dark:focus {
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .list-group-item-action {
@@ -10732,6 +10734,7 @@ header.masthead h1 {
   max-width: 400px;
   margin: 0 auto;
   cursor: pointer;
+  text-decoration: none;
 }
 
 #categories .categories-item .categories-link .categories-hover {
@@ -10859,7 +10862,7 @@ header.masthead h1 {
   /* Safari and Chrome */
   z-index: 1051;
   width: 1px;
-  height: 75px;
+  height: 55px;
   margin-left: 35px;
   /* IE 9 */
   -webkit-transform: rotate(45deg);
@@ -10871,7 +10874,7 @@ header.masthead h1 {
   /* Safari and Chrome */
   z-index: 1052;
   width: 1px;
-  height: 75px;
+  height: 55px;
   /* IE 9 */
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
