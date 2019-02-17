@@ -28,7 +28,7 @@
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
-  --warning: #ffc107;
+  --warning: #c9e6e8;
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
@@ -513,6 +513,8 @@ mark,
   color: #6c757d;
 }
 
+
+
 code {
   font-size: 87.5%;
   color: #e83e8c;
@@ -584,6 +586,7 @@ pre code {
   .container {
     max-width: 1140px;
   }
+
 }
 
 .container-fluid {
@@ -879,7 +882,7 @@ pre code {
     max-width: 100%;
   }
   .col-sm-1 {
-    -webkit-box-flex: 0;
+   -webkit-box-flex: 0;
     -ms-flex: 0 0 8.33333%;
     flex: 0 0 8.33333%;
     max-width: 8.33333%;
@@ -11081,4 +11084,16 @@ header.masthead h1 {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+}
+
+.bag-image {
+  max-width: 100%;
+}
+
+/* resize images */
+.bag-image img {
+    display: block;
+    width: 100%;
+    max-height: inherit;
+    height: inherit;
 }
