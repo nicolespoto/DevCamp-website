@@ -6801,6 +6801,8 @@ a.close.disabled {
 
 .bg-primary {
   background-color: #4badb4 !important;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10957,13 +10959,18 @@ header.masthead h1 {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #4badb4;
 }
 
 .timeline > li .timeline-image h4 {
+  text-align: center;
   font-size: 10px;
   line-height: 14px;
   margin-top: 12px;
+}
+
+.timeline > li .timeline-image h4 a {
+  color: white;
 }
 
 .timeline > li.timeline-inverted > .timeline-panel {
