@@ -4492,6 +4492,10 @@ input[type="button"].btn-block {
   white-space: nowrap;
 }
 
+.navbar-brand h4 {
+  font-weight: bold;
+}
+
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
@@ -10471,6 +10475,7 @@ hr.light {
 #mainNav .navbar-brand {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
+  font-size: 1.5rem;
   color: #212529;
 }
 
