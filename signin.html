@@ -28,38 +28,7 @@
 
 </head>
 
-<body>
-
-  <!-- Navigation OG
-  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" id="secondaryNav">
-    <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-   -->
-
-
+<body id="page-top">
 
   <!-- Navigation  -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="secondaryNav">
@@ -84,7 +53,7 @@
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="signin.html">Sign In</a>
+            <a class="nav-link js-scroll-trigger" href="#signin">Sign In</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="shopping-bag.html">Shopping Bag</a>
@@ -100,133 +69,64 @@
 
   <!-- Page Content -->
 
-  <div class="container">
-
-    <div class="row">
-
-      <div class="col-lg-3">
-
-        <h2 class="my-4">Bottoms</h2>
-        <div class="list-group mb-3">
-
-          <a href=" new-arrivals.html" class="list-group-item">New Arrivals</a>
-          <a href="tops.html" class="list-group-item">Tops</a>
-          <a href=" dresses.html" class="list-group-item">Dresses</a>
-
-          <a href="shoes.html" class="list-group-item">Shoes</a>
-          <a href="accessories.html" class="list-group-item">Accessories</a>
+  <div class="container" id="signin">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="mt-0">Sign In</h2>
+          <hr class="divider my-4">
         </div>
-
       </div>
-      <!-- /.col-lg-3 -->
-
-      <div class="col-lg-9">
-
-
-
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a class="categories-link" data-toggle="modal" href="#categoriesModal1"><img class="card-img-top" src="img/categories/bottoms-03-thumb.jpg" alt=""></a>
-              <div class="card-body">
-                <h6 class="card-title">
-                  <a class="categories-link" data-toggle="modal" href="#categoriesModal1">Destroyed Jeans</a>
-                </h6>
-                <h7 class="font-italic">$19.99</h7>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a class="categories-link" data-toggle="modal" href="#categoriesModal2"><img class="card-img-top" src="img/categories/bottoms-04-thumb.jpg" alt=""></a>
-              <div class="card-body">
-                <h6 class="card-title">
-                  <a class="categories-link" data-toggle="modal" href="#categoriesModal2">Joggers</a>
-                </h6>
-                <h7 class="font-italic">$12.99</h7>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+            <div class="row justify-content-center">
+              <div class="clearfix"></div>
+              <div class="col-md-6 text-center">
+                <div class="form-group">
+                  <input class="form-control" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Please enter your email address.">
+                  <input class="form-control" id="password" type="password" placeholder="Password *" required="required" data-validation-required-message="Please enter your password.">
+                  <p class="help-block text-danger"></p>
                 </div>
-              <div class="card-footer">
-                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                <div id="success"></div>
+                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="Sign In">Sign In</button>
               </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a class="categories-link" data-toggle="modal" href="#categoriesModal3"><img class="card-img-top" src="img/categories/bottoms-05-thumb.jpg" alt=""></a>
-              <div class="card-body">
-                <h6 class="card-title">
-                  <a class="categories-link" data-toggle="modal" href="#categoriesModal3">Classic Jeans</a>
-                </h6>
-                <h7 class="font-italic">$19.99</h7>
-            </div>
-              <div class="card-footer">
-                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a class="categories-link" data-toggle="modal" href="#categoriesModal4"><img class="card-img-top" src="img/categories/bottoms-06-thumb.jpg" alt=""></a>
-              <div class="card-body">
-                <h6 class="card-title">
-                  <a class="categories-link" data-toggle="modal" href="#categoriesModal4">Cropped Trousers</a>
-                </h6>
-                <h7 class="font-italic">$34.99</h7>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a class="categories-link" data-toggle="modal" href="#categoriesModal5"><img class="card-img-top" src="img/categories/bottoms-01-thumb.jpg" alt=""></a>
-              <div class="card-body">
-                <h6 class="card-title">
-                  <a class="categories-link" data-toggle="modal" href="#categoriesModal5">Navy Trousers</a>
-                </h6>
-                <h7 class="font-italic">$44.99</h7>
-                </div>
-              <div class="card-footer">
-                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a class="categories-link" data-toggle="modal" href="#categoriesModal6"><img class="card-img-top" src="img/categories/bottoms-02-thumb.jpg" alt=""></a>
-              <div class="card-body">
-                <h6 class="card-title">
-                  <a class="categories-link" data-toggle="modal" href="#categoriesModal6">Black Jeans</a>
-                </h6>
-                <h7 class="font-italic">$14.99</h7>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-              </div>
-            </div>
-          </div>
-
+          </form>
         </div>
-        <!-- /.row -->
-
-
-
       </div>
-      <!-- /.col-lg-9 -->
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <hr class="divider my-4">
+          <h2 class="mt-0">Create Account</h2>
+          <hr class="divider my-4">
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <form id="contactForm2" name="sentMessage2" novalidate="novalidate">
+            <div class="row justify-content-center">
+              <div class="clearfix"></div>
+              <div class="col-md-6 text-center">
+                <div class="form-group">
+                  <input class="form-control" id="firstname" type="firstname" placeholder="First Name *" required="required" data-validation-required-message="Please enter your first name.">
+                  <input class="form-control" id="lastname" type="lastname" placeholder="Last Name *" required="required" data-validation-required-message="Please enter your last name.">
+                  <input class="form-control" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Please enter your email address.">
+                  <input class="form-control" id="password" type="password" placeholder="Password *" required="required" data-validation-required-message="Please enter your password.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div id="success"></div>
+                <button id="createAccountButton" class="btn btn-primary btn-xl text-uppercase" type="Create Account">Create Account</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
 
-    </div>
-    <!-- /.row -->
+
+
+
+
+
 
 
 
@@ -336,13 +236,9 @@
                 <div class="container">Select Size: </div>
                             <select id="select-form" class="select-form mb-3">
                               <!-- Set the value attributes for each option from 0 to 3 in order (from the top) -->
-                              <option selected value = "2">2</option>
-                              <option value = "4">4</option>
-                              <option value = "6">6</option>
-                              <option value = "8">8</option>
-                              <option value = "10">10</option>
-                              <option value = "12">12</option>
-                              <option value = "14">14</option>
+                              <option selected value = "small">small</option>
+                              <option value = "medium">medium</option>
+                              <option value = "large">large</option>
                             </select>
 
 
@@ -383,23 +279,23 @@
             <div class="col-lg-5 mx-auto">
 
                 <!-- Project Details Go Here -->
-                <img class="img-fluid d-block mx-auto" src="img\categories\bottoms-04.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="img\categories\dress-02.jpg" alt="">
             </div>
             <div class="col-lg mx-auto">
-                <h3 class="text-uppercase">Joggers</h3>
-                <p class="item-intro text-muted">Light-weight Joggers</p>
+                <h3 class="text-uppercase">Fit and Flare Dress</h3>
+                <p class="item-intro text-muted">Sleeveless Fit and Flare Dress in Green Trees</p>
 
                 <div class="container text-left" style="width: 75%;">
                   <ul >
-                    <li >Light-weight</li>
-                    <li >Relaxed fit</li>
-                    <li >White</li>
+                    <li >Fitted corset with flare skirt</li>
+                    <li >Hits just above the ankles</li>
+                    <li >Green Trees pattern</li>
                     <li >100% Cotton</li>
                     <li >Machine washable</li>
                     <li >Imported</li>
                   </ul>
                   <p class="mt-2">
-                  <h7 class="font-italic">$12.99</h7>
+                  <h7 class="font-italic">$59.99</h7>
                   </p>
 
                 </div>
@@ -450,36 +346,32 @@
             <div class="col-lg-5 mx-auto">
 
                 <!-- Project Details Go Here -->
-                <img class="img-fluid d-block mx-auto" src="img\categories\bottoms-05.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="img\categories\shoes-03.jpg" alt="">
             </div>
             <div class="col-lg mx-auto">
-                <h3 class="text-uppercase">Classic Jeans</h3>
-                <p class="item-intro text-muted">Classic Straight Fit Jeans</p>
+                <h3 class="text-uppercase">Sweater Dress</h3>
+                <p class="item-intro text-muted">Long Sleeve Knit Sweater Dress</p>
 
                 <div class="container text-left" style="width: 75%;">
                   <ul >
-                    <li >Straight fit</li>
-                    <li >Mid-rise</li>
-                    <li >Medium indigo wash</li>
+                    <li >Straight silhouette with a relaxed fit</li>
+                    <li >Hits just below the knee</li>
+                    <li >Knit Contruction, in Blue</li>
                     <li >100% Cotton</li>
                     <li >Machine washable</li>
                     <li >Imported</li>
                   </ul>
                   <p class="mt-2">
-                  <h7 class="font-italic">$19.99</h7>
+                  <h7 class="font-italic">$39.99</h7>
                   </p>
                 </div>
 
                 <div class="container">Select Size: </div>
                             <select id="select-form" class="select-form mb-3">
                               <!-- Set the value attributes for each option from 0 to 3 in order (from the top) -->
-                              <option selected value = "2">2</option>
-                              <option value = "4">4</option>
-                              <option value = "6">6</option>
-                              <option value = "8">8</option>
-                              <option value = "10">10</option>
-                              <option value = "12">12</option>
-                              <option value = "14">14</option>
+                              <option selected value = "small">small</option>
+                              <option value = "medium">medium</option>
+                              <option value = "large">large</option>
                             </select>
 
 
@@ -520,36 +412,32 @@
             <div class="col-lg-5 mx-auto">
 
                 <!-- Project Details Go Here -->
-                <img class="img-fluid d-block mx-auto" src="img\categories\bottoms-06.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="img\categories\shoes-04.jpg" alt="">
             </div>
             <div class="col-lg mx-auto">
-                <h3 class="text-uppercase">Cropped Trousers</h3>
-                <p class="item-intro text-muted">Navy Wide-Leg Cropped Trousers</p>
+                <h3 class="text-uppercase">Flounce Dress</h3>
+                <p class="item-intro text-muted">Long Sleeve Fitted Waist Flounce Dress</p>
 
                 <div class="container text-left" style="width: 75%;">
                   <ul >
-                    <li >Wide leg</li>
-                    <li >Cropped</li>
-                    <li >Navy with button detail at waist</li>
-                    <li >100% Cotton</li>
+                    <li >Fitted waist with a relaxed fit</li>
+                    <li >Hits just above the knee</li>
+                    <li >Green Birds pattern</li>
+                    <li >100% Polyester</li>
                     <li >Machine washable</li>
                     <li >Imported</li>
                   </ul>
                   <p class="mt-2">
-                  <h7 class="font-italic">$34.99</h7>
+                  <h7 class="font-italic">$24.99</h7>
                   </p>
                 </div>
 
                 <div class="container">Select Size: </div>
                             <select id="select-form" class="select-form mb-3">
                               <!-- Set the value attributes for each option from 0 to 3 in order (from the top) -->
-                              <option selected value = "2">2</option>
-                              <option value = "4">4</option>
-                              <option value = "6">6</option>
-                              <option value = "8">8</option>
-                              <option value = "10">10</option>
-                              <option value = "12">12</option>
-                              <option value = "14">14</option>
+                              <option selected value = "small">small</option>
+                              <option value = "medium">medium</option>
+                              <option value = "large">large</option>
                             </select>
 
 
@@ -590,36 +478,32 @@
             <div class="col-lg-5 mx-auto">
 
                 <!-- Project Details Go Here -->
-                <img class="img-fluid d-block mx-auto" src="img\categories\bottoms-01.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="img\categories\shoes-05.jpg" alt="">
             </div>
             <div class="col-lg mx-auto">
-                <h3 class="text-uppercase">Navy Trousers</h3>
-                <p class="item-intro text-muted">Classic Navy Pinstripe Trousers</p>
+                <h3 class="text-uppercase">Ruffle Sleeve Straight Dress</h3>
+                <p class="item-intro text-muted">Long Sleeve Straight Dress in Checkered Pattern</p>
 
                 <div class="container text-left" style="width: 75%;">
                   <ul >
-                    <li >Slightly relaxed fit</li>
-                    <li >Black pinstripes</li>
-                    <li >Front pockets</li>
+                    <li >Straight silhouette with a relaxed fit</li>
+                    <li >Hits above the knee</li>
+                    <li >Black and white checkered</li>
                     <li >100% Cotton</li>
                     <li >Machine washable</li>
                     <li >Imported</li>
                   </ul>
                   <p class="mt-2">
-                  <h7 class="font-italic">$44.99</h7>
+                  <h7 class="font-italic">$24.99</h7>
                   </p>
                 </div>
 
                 <div class="container">Select Size: </div>
                             <select id="select-form" class="select-form mb-3">
                               <!-- Set the value attributes for each option from 0 to 3 in order (from the top) -->
-                              <option selected value = "2">2</option>
-                              <option value = "4">4</option>
-                              <option value = "6">6</option>
-                              <option value = "8">8</option>
-                              <option value = "10">10</option>
-                              <option value = "12">12</option>
-                              <option value = "14">14</option>
+                              <option selected value = "small">small</option>
+                              <option value = "medium">medium</option>
+                              <option value = "large">large</option>
                             </select>
 
 
@@ -660,36 +544,32 @@
             <div class="col-lg-5 mx-auto">
 
                 <!-- Project Details Go Here -->
-                <img class="img-fluid d-block mx-auto" src="img\categories\bottoms-02.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="img\categories\shoes-06.jpg" alt="">
             </div>
             <div class="col-lg mx-auto">
-                <h3 class="text-uppercase">Black Jeans</h3>
-                <p class="item-intro text-muted">Skinny Black Ankle Length Jeans</p>
+                <h3 class="text-uppercase">Chambray Shirtdress</h3>
+                <p class="item-intro text-muted">Long Sleeve Popover Shirtdress in Chambray</p>
 
                 <div class="container text-left" style="width: 75%;">
                   <ul >
-                    <li >Skinny fit</li>
-                    <li >Ankle length</li>
-                    <li >Cuffed</li>
+                    <li >Straight silhouette with a relaxed fit</li>
+                    <li >Hits just below the knee</li>
+                    <li >Medium indigo wash</li>
                     <li >100% Cotton</li>
                     <li >Machine washable</li>
                     <li >Imported</li>
                   </ul>
                   <p class="mt-2">
-                  <h7 class="font-italic">$14.99</h7>
+                  <h7 class="font-italic">$39.99</h7>
                   </p>
                 </div>
 
                 <div class="container">Select Size: </div>
                             <select id="select-form" class="select-form mb-3">
                               <!-- Set the value attributes for each option from 0 to 3 in order (from the top) -->
-                              <option selected value = "2">2</option>
-                              <option value = "4">4</option>
-                              <option value = "6">6</option>
-                              <option value = "8">8</option>
-                              <option value = "10">10</option>
-                              <option value = "12">12</option>
-                              <option value = "14">14</option>
+                              <option selected value = "small">small</option>
+                              <option value = "medium">medium</option>
+                              <option value = "large">large</option>
                             </select>
 
 

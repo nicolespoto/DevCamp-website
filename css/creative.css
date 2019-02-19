@@ -6801,8 +6801,6 @@ a.close.disabled {
 
 .bg-primary {
   background-color: #4badb4 !important;
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10457,7 +10455,9 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 4rem 0;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 #mainNav {
